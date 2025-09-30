@@ -12,11 +12,11 @@ from analyzer import (
 def main():
     data = load_csv("data/students_sample.csv")
     if not data:
-        print("⚠️  No data loaded. Exiting...")
+        print("  No data loaded. Exiting...")
         return
 
     while True:
-        print("\n===== 🎯 Student Data Analyzer =====")
+        print("\n=====  Student Data Analyzer =====")
         print("1. Show average of a column")
         print("2. Show max of a column")
         print("3. Show min of a column")
